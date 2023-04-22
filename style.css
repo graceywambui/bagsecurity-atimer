@@ -1,0 +1,137 @@
+
+@font-face {
+  font-family: 'silian-calligraphy-font';
+src: url(/fonts/silian-calligraphy-font/SilianCalligraphyBoldPersonalRegular-rg96y.otf:Zone.Identifier) format ('opentype');
+}
+
+@font-face {
+  font-family: 'young-money-font';
+src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format ('opentype');
+}
+
+body {
+  background-image: url('/backgroundimages/jingming-pan-iYsrkq5qq0Q-unsplash.jpg');
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: 'silian-calligraphy-font';
+  text-align: center;
+}
+
+
+.topnav {
+    background-color:#090909;
+    overflow: hidden;
+}
+
+.topnav  {
+    text-align: center;
+    color: #ccba78;
+    font-size: 30px;
+    opacity: 75%;
+    animation: slideIn 1s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 75%;
+    transform: translateY(-100px);
+  }
+  60% {
+    transform: translateY(30px);
+  }
+  80%{
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 75%;
+    transform: translateY(0);
+  }
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+h4 {
+    font-size: 40px;
+    color: #ccba78;
+    border: 2px solid black;
+    border-top-right-radius: 5% ;
+    background-color: black;
+    opacity: 75%;
+}
+
+.timings{
+    font-size: 75px;
+}
+.btn{
+  background-color: black;
+  color: #ccba78;
+  border: none;
+  padding: 14px 40px;
+  text-align: center;
+  border-radius: 8px;
+
+}
+
+  #pomodoro-durations{
+    padding-bottom: 2%;
+  }
+
+  .timer{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: item;
+    border: 1px solid #ccba78;
+    border-radius: 10%;
+    background-color: red;
+    color: #ccba78;
+  }
+
+  
+  .timer__digits {
+    font-size: 75px;
+    color: black;
+  }
+  
+  .timer__buttons{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .timer__start {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 75px;
+  }
+
+  .timer__stop{
+    position: absolute;
+    bottom: 20px;
+    left: 55%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 75px;
+  }
+  
+  #musicplayer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 5%;
+  }
+
+  #music_section{
+    padding: 10%;
+  }
