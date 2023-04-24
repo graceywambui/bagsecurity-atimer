@@ -10,7 +10,7 @@ src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format 
 }
 
 body {
-  background-image: url('/backgroundimages/jingming-pan-iYsrkq5qq0Q-unsplash.jpg');
+  background-image: url('./backgroundimages/jingming-pan-iYsrkq5qq0Q-unsplash.jpg');
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.2);
   font-family: 'silian-calligraphy-font';
