@@ -89,10 +89,11 @@ h4 {
     font-weight: bold;
     text-align: center;
     margin-top: item;
-    border: 1px solid #ccba78;
+    border: 1px solid black;
     border-radius: 10%;
-    background-color: red;
-    color: #ccba78;
+    background-color: #ccba78;
+    color: white;
+    
   }
 
   
