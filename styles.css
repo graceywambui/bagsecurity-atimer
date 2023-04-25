@@ -1,36 +1,38 @@
 
 @font-face {
-  font-family: 'silian-calligraphy-font';
-src: url(/fonts/silian-calligraphy-font/SilianCalligraphyBoldPersonalRegular-rg96y.otf:Zone.Identifier) format ('opentype');
+  font-family: 'CastoroTitling';
+src: url('./fonts/Castoro_Titling/CastoroTitling-Regular.ttf') format ('truetype');
 }
 
-@font-face {
+/*@font-face {
   font-family: 'young-money-font';
 src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format ('opentype');
-}
+}*/
 
 body {
-  background-image: url('./backgroundimages/jingming-pan-iYsrkq5qq0Q-unsplash.jpg');
+  background-image: url('./backgroundimages/alexander-grey-8lnbXtxFGZw-unsplash.jpg');
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.2);
-  font-family: 'silian-calligraphy-font';
+  font-family: 'CastoroTitling';
   text-align: center;
 }
 
 
 .topnav {
-    background-color:#090909;
+    background-color:black;
     overflow: hidden;
 }
 
 .topnav  {
     text-align: center;
     color: #ccba78;
-    font-size: 30px;
-    opacity: 75%;
+    font-size: 35px;
+    opacity: 80%;
     animation: slideIn 1s ease-in-out;
     animation-delay: 0.5s;
     animation-fill-mode: forwards; 
+    font-family: 'Ysabeau', sans-serif;
+    font-style: bold;
 }
 
 @keyframes slideIn {
@@ -61,10 +63,13 @@ body {
 h4 {
     font-size: 40px;
     color: #ccba78;
-    border: 2px solid black;
+    border: none;
     border-top-right-radius: 5% ;
     background-color: black;
     opacity: 75%;
+    font-family: 'Ysabeau', sans-serif;
+    border-radius: 12px ;
+    border-width: 4cap;
 }
 
 .timings{
@@ -73,10 +78,13 @@ h4 {
 .btn{
   background-color: black;
   color: #ccba78;
-  border: none;
+  border : none;
+
   padding: 14px 40px;
   text-align: center;
   border-radius: 8px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: bold;
 
 }
 

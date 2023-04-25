@@ -3,6 +3,7 @@ const pomodoroButton = document.querySelector('#pomodoro');
 const tenMinuteButton = document.querySelector('#ten');
 const fiveMinuteButton = document.querySelector('#five');
 const timerDigits = document.querySelector('.timer__digits');
+const timerDisplay = document.querySelector('.timer');
 
 let timerId;
 let timerLeft;
