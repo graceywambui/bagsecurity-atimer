@@ -102,3 +102,13 @@ pauseButton.addEventListener('mouseleave', ()=>{
   pauseButton.style.color = "#ccba78";
 })
 
+
+fetch ('http://localhost:3000/moneymusic')
+.then(response => response.json ())
+.then(data => {
+  console.log(data);
+})
+.catch(error =>{
+  console.log(error);
+})
+

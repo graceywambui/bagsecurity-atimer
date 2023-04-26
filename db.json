@@ -1,0 +1,14 @@
+{
+  "moneymusic" : [
+    {
+      "id": 1,
+      "artist": "Chloe x Halle Bailey",
+      "url": "https://open.spotify.com/track/1LaqQwmSqnRiNHH7B5Duvk?si=655bc279537d4a33"
+    },
+  {
+    "id": 2,
+    "artist": "Cardi B",
+    "url": "https://open.spotify.com/track/2GGMabyHXnJmjY6CXhhB2e?si=eec97444df3d4dcb"
+  }
+]
+}
