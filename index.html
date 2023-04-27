@@ -11,7 +11,7 @@
     <link rel="stylesheet" type ="text/css" href="./styles.css">
 
     <link rel="icon" type="image/png" href="./moneybag.png">
-
+    <script src="https://kit.fontawesome.com/27ac25c53e.js" crossorigin="anonymous"></script>
     <title>Bag Security</title>
 </head>
 <body class="background-image">
@@ -50,20 +50,43 @@
         </ul>
 
         <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="./backgroundimages/alexander-grey-8lnbXtxFGZw-unsplash.jpg" alt="" class="song-img">
 
+            <div>
+                <h1>Hustlin'</h1>
+                <p>Rick Ross</p>
+                    <audio id="song">
+                        <source src="./music/Rick Ross - Hustlin' (Official Music Video).mp3" type="audio/mpeg">
+                        
+                    </audio>
+                    <input type="range" value="0" id="progress">
 
+                    <div class="controls">
+                        <div><i class="fa-solid fa-backward"></i></div>
+                        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                        <div><i class="fa-solid fa-forward"></i></div>
+                       
+                    </div>
+
+            </div>
         </div>
 
     </div>
 
-        <div id="my-player"></div>
-    <div>
-        <button class="btn" id="pause-btn">Pause</button>
-        <button class="btn" id="play-btn">Play</button>
-        <button class="btn" id="next-btn">Next</button>
-        </div>
-    </div>
+        
+    
 <footer class="app-footer">Page created by Grace N. Wambui</footer>
-    <script src="index.js"></script>
+    <script src="index.js">
+
+
+    </script>
 </body>
 </html>

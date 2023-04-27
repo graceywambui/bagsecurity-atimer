@@ -74,6 +74,43 @@ fiveMinuteButton.addEventListener('mouseleave', ()=>{
   fiveMinuteButton.style.color="#ccba78";
 })
 
+
+
+let progress = document.getElementById("progress");
+let song = document.getElementById("song");
+let ctrlIcon = document.getElementById("ctrlIcon");
+
+song.onloadedmetadata = function(){
+progress.max = song.duration;
+progress.value = song.currentTime;
+
+}
+
+function playPause(){
+  if(ctrlIcon.classList.contains("fa-pause")){
+    song.pause();
+    ctrlIcon.classList.remove("fa-pause");
+    ctrlIcon.classList.add("fa-play");
+  }
+  else{
+    song.play();
+    ctrlIcon.classList.add("fa-pause");
+    ctrlIcon.classList.remove("fa-play");
+  }
+}
+
+if(song.play()){
+  setInterval(() => {
+    progress.value = song.currentTime;
+  }, 500);
+}
+
+progress.onchange = function (){
+  song.play();
+  song.currentTime = progress.value;
+  ctrlIcon.classList.add("fa-pause");
+  ctrlIcon.classList.remove("fa-play");
+}
 //audioplayer features
 //const audioPlayer=document.getElementById('audio-player');
 const musicList = document.getElementById('musicList');
@@ -81,12 +118,14 @@ const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
 const audioPlayer = document.getElementById('audioPlayer');
 const nextButton = document.getElementById ('next-btn');
+const art = document.querySelector('#song-img');
 const ul = document.querySelector('ul');
 //let currentSongIndex = 0;
 
 fetch ('http://localhost:3000/moneymusic')
 .then(response => response.json ())
 .then(data => {
+  
 
 ul.innerHTML = '';
 
@@ -94,7 +133,7 @@ data.forEach(data => {
   const li = document.createElement("li");
   li.classList.add("music", "item");
   li.textContent = `${data.title}-${data.artist}`;
-  li.style.color = 'white';
+  li.style.color = '#f53192';
 
   // Add event listener to play music on click
   li.addEventListener('click', () => {
@@ -105,34 +144,34 @@ data.forEach(data => {
 
   ul.appendChild(li);
 
-});
+  
 
 });
 
+});
 
 
 
 
-playButton.addEventListener('mouseenter', ()=>{
-  playButton.style.color = "white";
-})
-playButton.addEventListener('mouseleave', ()=>{
-  playButton.style.color = "#ccba78";
-})
-nextButton.addEventListener('mouseenter', ()=>{
-  nextButton.style.color = "white";
-})
-nextButton.addEventListener('mouseleave', ()=>{
-  nextButton.style.color = "#ccba78";
-})
 
-pauseButton.addEventListener('mouseenter', ()=>{
-  pauseButton.style.color = "white";
-})
+// playButton.addEventListener('mouseenter', ()=>{
+//   playButton.style.color = "white";
+// })
+// playButton.addEventListener('mouseleave', ()=>{
+//   playButton.style.color = "#ccba78";
+// })
+// nextButton.addEventListener('mouseenter', ()=>{
+//   nextButton.style.color = "white";
+// })
+// nextButton.addEventListener('mouseleave', ()=>{
+//   nextButton.style.color = "#ccba78";
+// })
 
-pauseButton.addEventListener('mouseleave', ()=>{
-  pauseButton.style.color = "#ccba78";
-})
+// pauseButton.addEventListener('mouseenter', ()=>{
+//   pauseButton.style.color = "white";
+// })
 
-
+// pauseButton.addEventListener('mouseleave', ()=>{
+//   pauseButton.style.color = "#ccba78";
+// })
 
