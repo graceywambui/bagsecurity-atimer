@@ -94,7 +94,7 @@ data.forEach(data => {
   li.classList.add("music", "item");
   li.textContent = `${data.title}-${data.artist}`;
   li.style.color = 'white';
-  li.style.font = 'Montserrat';
+  
   ul.appendChild(li);
 });
 
