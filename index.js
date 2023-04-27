@@ -39,39 +39,40 @@ pomodoroButton.addEventListener('click', ()=>{
 
 pomodoroButton.addEventListener('mouseenter', ()=>
 {
-  pomodoroButton.style.color ="white";
+  pomodoroButton.style.color ="#f53192";
 });
 
 pomodoroButton.addEventListener('mouseleave', ()=>
 {
-  pomodoroButton.style.color ="#ccba78";
+  pomodoroButton.style.color ="black";
 });
 
 tenMinuteButton.addEventListener('click', ()=>{
   startTimer (10*60);
+  tenMinuteButton.style.color = "black";
 
 })
 
 tenMinuteButton.addEventListener('mouseenter', ()=>{
-  tenMinuteButton.style.color="white";
+  tenMinuteButton.style.color="#f53192";
 })
 
 tenMinuteButton.addEventListener('mouseleave', ()=>{
-  tenMinuteButton.style.color="#ccba78";
+  tenMinuteButton.style.color="black";
 })
 
 
 fiveMinuteButton.addEventListener('click', ()=>{
   startTimer (5*60);
-  fiveMinuteButton.style.color = "white";
+  fiveMinuteButton.style.color = "black";
 })
 
 fiveMinuteButton.addEventListener('mouseenter', ()=>{
-  fiveMinuteButton.style.color="white";
+  fiveMinuteButton.style.color="#f53192";
 })
 
 fiveMinuteButton.addEventListener('mouseleave', ()=>{
-  fiveMinuteButton.style.color="#ccba78";
+  fiveMinuteButton.style.color="black";
 })
 
 

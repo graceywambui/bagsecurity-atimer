@@ -10,22 +10,22 @@ src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format 
 }*/
 
 body {
-  background-image: url('./backgroundimages/alexander-grey-8lnbXtxFGZw-unsplash.jpg');
+background-image: url('./backgroundimages/pawel-czerwinski-2PN18U8CKi0-unsplash.jpg');
   background-size: cover;
-  
+  background-color:black;
   font-family: 'Montserrat';
   text-align: center;
 }
 
 
 .topnav {
-    background-color:black;
+   
     overflow: hidden;
 }
 
 .topnav  {
     text-align: center;
-    color: #f53192;
+    color: black;
     font-size: 35px;
    
     animation: slideIn 1s ease-in-out;
@@ -62,7 +62,7 @@ body {
 
 h4 {
     font-size: 40px;
-    color: #f53192;
+    color: white;
     border: none;
     border-top-right-radius: 5% ;
     background-color: black;
@@ -76,7 +76,7 @@ h4 {
     font-size: 75px;
 }
 .btn{
-  background-color: #f53192;
+  background-color: white;
   color: black;
   border : none;
 
@@ -101,7 +101,7 @@ button{
     margin-top: item;
     border: 1px solid black;
     border-radius: 10%;
-    background-color: #ccba78;
+    background-color: white;
     color: white;
     
   }
