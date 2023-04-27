@@ -12,7 +12,7 @@ src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format 
 body {
   background-image: url('./backgroundimages/alexander-grey-8lnbXtxFGZw-unsplash.jpg');
   background-size: cover;
-  background-color: black;
+  
   font-family: 'Montserrat';
   text-align: center;
 }
