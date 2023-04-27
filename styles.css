@@ -138,35 +138,31 @@ button{
 li{
   list-style: none;
 }
-  #musicstyle{
-    border: 2px;
-  }
   
-  #musicplayer{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    padding: 5%;
-  }
+.music-container {
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-wrap: wrap ;
+}
 
-  #music_section{
-    padding: 10%;
-  }
+.music-player{
+  background: #ffe0e5;
+  width: 400px;
+  padding: 25px 35px;
+  text-align: center;
+}
 
-
-  #audioBar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 5px;
-    background-color: #ccc;
-  }
+.app-footer{
+  padding: 10px;
+  color: black;
+  overflow: hidden;
+}
   
-  #progressBar {
-    width: 0%;
-    height: 100%;
-    background-color: #f00;
-    transition: width 0.1s ease-in-out;
-  }
+
+ 
+
   

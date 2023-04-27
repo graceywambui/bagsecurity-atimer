@@ -76,12 +76,13 @@ fiveMinuteButton.addEventListener('mouseleave', ()=>{
 
 //audioplayer features
 //const audioPlayer=document.getElementById('audio-player');
-
+const musicList = document.getElementById('musicList');
 const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
+const audioPlayer = document.getElementById('audioPlayer');
 const nextButton = document.getElementById ('next-btn');
 const ul = document.querySelector('ul');
-let currentSongIndex = 0;
+//let currentSongIndex = 0;
 
 fetch ('http://localhost:3000/moneymusic')
 .then(response => response.json ())
@@ -94,11 +95,21 @@ data.forEach(data => {
   li.classList.add("music", "item");
   li.textContent = `${data.title}-${data.artist}`;
   li.style.color = 'white';
-  
+
+  // Add event listener to play music on click
+  li.addEventListener('click', () => {
+  audioPlayer.src = data.url
+
+  }); 
+
+
   ul.appendChild(li);
+
 });
 
 });
+
+
 
 
 
