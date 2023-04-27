@@ -95,7 +95,7 @@ button{
   }
 
   .timer{
-    font-size: 2rem;
+    
     font-weight: bold;
     text-align: center;
     margin-top: item;
@@ -135,7 +135,18 @@ button{
     width: 100px;
     height: 75px;
   }
-  
+
+  .musicstyle{
+    border-radius: 2px;
+    background-color: black;
+  }
+
+  li{
+    font-family: 'Montserrat';
+  }
+  .list{
+    color: white;
+  }
   #musicplayer{
     display:flex;
     justify-content: center;

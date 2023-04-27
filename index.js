@@ -76,10 +76,31 @@ fiveMinuteButton.addEventListener('mouseleave', ()=>{
 
 //audioplayer features
 //const audioPlayer=document.getElementById('audio-player');
+
 const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
 const nextButton = document.getElementById ('next-btn');
+const ul = document.querySelector('ul');
 let currentSongIndex = 0;
+
+fetch ('http://localhost:3000/moneymusic')
+.then(response => response.json ())
+.then(data => {
+
+ul.innerHTML = '';
+
+data.forEach(data => {
+  const li = document.createElement("li");
+  li.classList.add("music", "item");
+  li.textContent = `${data.title}-${data.artist}`;
+  li.style.color = 'white';
+  li.style.font = 'Montserrat';
+  ul.appendChild(li);
+});
+
+});
+
+
 
 playButton.addEventListener('mouseenter', ()=>{
   playButton.style.color = "white";
@@ -103,21 +124,4 @@ pauseButton.addEventListener('mouseleave', ()=>{
 })
 
 
-fetch ('http://localhost:3000/moneymusic')
-.then(response => response.json ())
-.then(data => {
-  const audioContainer = document.getElementById("audio-container");
-for (let i = 0; i < data.moneymusic.length; i++) {
-  const track = data.moneymusic[i];
-  const audioPlayer = document.createElement("audio");
-  audioPlayer.src = track.url;
-  audioContainer.appendChild(audioPlayer);
-}
-
-  
-  console.log(data);
-})
-.catch(error =>{
-  console.log(error);
-})
 

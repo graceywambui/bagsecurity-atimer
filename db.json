@@ -2,9 +2,9 @@
   "moneymusic" : [
     {
       "id": 1,
-      "artist": "Chloe x Halle Bailey",
-      "title": "Everywhere",
-      "url": "https://open.spotify.com/track/1LaqQwmSqnRiNHH7B5Duvk?si=655bc279537d4a33"
+      "artist": "Rick Ross",
+      "title": "Hustlin",
+      "url": ""
     },
   {
     "id": 2,
@@ -38,32 +38,32 @@
   },
   {
     "id":7,
-    "artist":"",
-    "title":"",
+    "artist":"Beyonce",
+    "title":"Diva",
     "url":""
   },
   {
     "id":8,
-    "artist":"",
-    "title":"",
-    "url":""
+    "artist":"Chloe x Halle Bailey",
+    "title":"Everywhere",
+    "url":"https://open.spotify.com/track/1LaqQwmSqnRiNHH7B5Duvk?si=655bc279537d4a33"
   },
   {
     "id":9,
-    "artist":"",
-    "title":"",
+    "artist":"T.I.ft. Young Thug",
+    "title":"About The Money",
     "url":""
   },
   {
     "id":10,
-    "artist":"",
-    "title":"",
+    "artist":"Troy Ave",
+    "title":"All About the Money",
     "url":""
   },
   {
     "id":11,
-    "artist":"",
-    "title":"",
+    "artist":"DJ Khaled ft. Drake, Rick Ross, Lil Wayne",
+    "title":"I'm On One (Explicit Version)",
     "url":""
   },
   {
@@ -104,8 +104,8 @@
   },
   {
     "id":18,
-    "artist":,
-    "title":,
+    "artist":"",
+    "title":"",
     "url":""
   },
   {
