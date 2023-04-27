@@ -10,7 +10,7 @@ src: url(/fonts/young-money-font/YoungMoneyPersonalUseRegular-4Bz9l.otf) format 
 }*/
 
 body {
-  background-image: url('./backgroundimages/alexander-grey-8lnbXtxFGZw-unsplash.jpg');
+  background-image: url('./backgroundimages/jingming-pan-iYsrkq5qq0Q-unsplash.jpg');
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.2);
   font-family: 'CastoroTitling';
@@ -83,9 +83,11 @@ h4 {
   padding: 14px 40px;
   text-align: center;
   border-radius: 8px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: bold;
+  font-family: 'Montserrat', sans-serif;
 
+}
+button{
+  font-family: 'Montserrat', sans-serif;
 }
 
   #pomodoro-durations{

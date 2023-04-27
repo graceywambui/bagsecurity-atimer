@@ -3,12 +3,123 @@
     {
       "id": 1,
       "artist": "Chloe x Halle Bailey",
+      "title": "Everywhere",
       "url": "https://open.spotify.com/track/1LaqQwmSqnRiNHH7B5Duvk?si=655bc279537d4a33"
     },
   {
     "id": 2,
     "artist": "Cardi B",
+    "title": "Money" ,
     "url": "https://open.spotify.com/track/2GGMabyHXnJmjY6CXhhB2e?si=eec97444df3d4dcb"
+  },
+  {
+    "id":3,
+    "artist": "Cardi B",
+    "title": "Money Bag",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "artist":  "Lil Uzi Vert",
+    "title":"Money Longer",
+    "url":""
+  },
+  {
+    "id":5,
+    "artist":"Kendrick Lamar ft. Jay Rock",
+    "title":"Money Trees" ,
+    "url":""
+  },
+  {
+    "id":6,
+    "artist":"Fat Joe & Remy Ma ft. French Montana",
+    "title":"All the Way Up" ,
+    "url":""
+  },
+  {
+    "id":7,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":8,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":9,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":10,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":11,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":12,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":13,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":14,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":15,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":16,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":17,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":18,
+    "artist":,
+    "title":,
+    "url":""
+  },
+  {
+    "id":19,
+    "artist":"",
+    "title":"",
+    "url":""
+  },
+  {
+    "id":20,
+    "artist":"",
+    "title":"",
+    "url":""
   }
+
 ]
 }
