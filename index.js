@@ -118,7 +118,7 @@ const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
 const audioPlayer = document.getElementById('audioPlayer');
 const nextButton = document.getElementById ('next-btn');
-const art = document.querySelector('#song-img');
+
 const ul = document.querySelector('ul');
 //let currentSongIndex = 0;
 
@@ -127,7 +127,7 @@ fetch ('http://localhost:3000/moneymusic')
 .then(data => {
   
 
-ul.innerHTML = '';
+  ul.innerHTML = '';
 
 data.forEach(data => {
   const li = document.createElement("li");
@@ -147,6 +147,8 @@ data.forEach(data => {
   
 
 });
+
+
 
 });
 
