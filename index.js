@@ -31,6 +31,8 @@ function updateTimerDisplay(){
   timerDigits.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
 
+
+//pomodoro and breaks timer buttons and features
 pomodoroButton.addEventListener('click', ()=>{
   startTimer (25*60);
     
@@ -82,7 +84,7 @@ let song = document.getElementById("song");
 let ctrlIcon = document.getElementById("ctrlIcon");
 
 
-
+//play music on click
 document.getElementById("ctrlIcon").addEventListener("click", function() {
   song.play();
   setInterval(() => {
@@ -109,13 +111,14 @@ function playPause(){
     ctrlIcon.classList.remove("fa-play");
   }
 }
+//this code plays music when page is loaded
 
 // if(song.play()){
 //   setInterval(() => {
 //     progress.value = song.currentTime;
 //   }, 500);
 // }
-
+// this code makes the progess bar follow the duration of the music
 progress.onchange = function (){
   song.play();
   song.currentTime = progress.value;
@@ -124,6 +127,8 @@ progress.onchange = function (){
 }
 //audioplayer features
 //const audioPlayer=document.getElementById('audio-player');
+const songName = document.getElementById('#songname');
+const artistName = document.getElementById('#artistname');
 const musicList = document.getElementById('musicList');
 const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
@@ -131,14 +136,16 @@ const audioPlayer = document.getElementById('audioPlayer');
 const nextButton = document.getElementById ('next-btn');
 const poster = document.querySelector('#poster');
 const ul = document.querySelector('ul');
+const songDetails = document.querySelector('.songdetails');
+
 //let currentSongIndex = 0;
 
 fetch ('http://localhost:3000/moneymusic')
 .then(response => response.json ())
 .then(data => {
-
+//adds poster to first track
 poster.src = data[0].poster;
-
+//adds music list from json data
   ul.innerHTML = '';
 
 data.forEach(data => {
@@ -153,27 +160,47 @@ data.forEach(data => {
       .then(response => response.json())
       .then(data => {
         poster.src=data.poster;
-        // artWork.alt=data.description;
-      })
+        poster.alt=data.title;
+        songDetails.textContent = `${data.title}-${data.artist}`;
+        
+        
+      });
+
   });
 
-  // Add event listener to play music on click
-  li.addEventListener('click', () => {
-  audioPlayer.src = data.url
-
-  }); 
-
-  
 
   ul.appendChild(li);
 
+});
+
+});
+
+li.addEventListener('click', (event)=> {
+  fetch(`http://localhost:3000/moneymusic`)
+  .then(response => response.json())
+  .then(data => {
+    songName.textContent = data.title;
+        artistName.textContent = data.artist;
+  })
+})
+
+
+
+  // Add event listener to play music on click
+  // const music = document.querySelector('#song');
+  // const musicList = document.querySelectorAll(".music.item");
   
-
-});
-
-
-
-});
+  // musicList.forEach(li => {
+  //   li.addEventListener('click', () => {
+  //     const index = Array.from(musicList).indexOf(li);
+  
+  //     const url = data.moneymusic[index].url;
+  
+  //    audio.src = url;
+  
+  //    audio.play();
+    
+  //     }); 
 
 
 

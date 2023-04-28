@@ -148,6 +148,7 @@ li{
   flex-wrap: wrap ;
 }
 
+
 .music-player{
   background: #ffe0e5;
   width: 400px;
@@ -183,6 +184,7 @@ nav .circle{
   border: 8px solid #fff;
   box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
 }
+
 
 .music-player h1{
   font-size: 20px;
