@@ -4,36 +4,41 @@
       "id": 1,
       "artist": "Rick Ross",
       "title": "Hustlin",
-      "img-url": "https://live.staticflickr.com/65535/52850259892_f5bc3bbba5_m.jpg",
+      "poster": "https://live.staticflickr.com/65535/52850259892_f5bc3bbba5_m.jpg",
       "url": "https://open.spotify.com/track/3hQCHzkE5oSA3F1xM8bpcM?si=6698e0693cd845b9"
     },
   {
     "id": 2,
     "artist": "Cardi B",
     "title": "Money" ,
+    "poster": "https://live.staticflickr.com/65535/52853095493_723326c533_m.jpg",
     "url": "https://open.spotify.com/track/2GGMabyHXnJmjY6CXhhB2e?si=eec97444df3d4dcb"
   },
   {
     "id":3,
     "artist": "Cardi B",
     "title": "Money Bag",
+    "poster": "https://live.staticflickr.com/65535/52853095463_d4b2b86911_m.jpg",
     "url": "https://open.spotify.com/track/1vBeIXlzbAieGoDqInav5j?si=27cf83c7e2c74c54"
   },
   {
     "id": 4,
     "artist":  "Rihanna",
     "title":"Pour It Up",
+    "poster": "https://live.staticflickr.com/65535/52853095448_82b8a1f843_m.jpg",
     "url":"https://open.spotify.com/track/5r67bGhYXZNqk2m2Wupfmu?si=71e536720980433e"
   },
   {
     "id":5,
     "artist":"Kendrick Lamar ft. Jay Rock",
     "title":"Money Trees" ,
+    "poster": "https://live.staticflickr.com/65535/52852065827_ed9c9396d3_m.jpg",
     "url":"https://open.spotify.com/track/0UtnpKaReKUg2GquaSxCyD?si=2d5241f7a9a74fed"
   },
   {
     "id":6,
     "artist":"Fat Joe & Remy Ma ft. French Montana",
+    "poster":"https://live.staticflickr.com/65535/52853138213_0ae17d4fa6_m.jpg",
     "title":"All the Way Up" ,
     "url":"https://open.spotify.com/track/2AYTGaclgKXACh13nJRVcV?si=497b107915864b7b"
   },
@@ -41,84 +46,98 @@
     "id":7,
     "artist":"Beyonce",
     "title":"Diva",
+    "poster": "https://live.staticflickr.com/65535/52852682466_2b7e21ece1_m.jpg",
     "url":"https://open.spotify.com/track/6GQuF9vzJAVs7fYN9ftBdP?si=c4c04e65d2e44618"
   },
   {
     "id":8,
     "artist":"Chloe x Halle Bailey",
     "title":"Everywhere",
-    "url":"https://open.spotify.com/track/1LaqQwmSqnRiNHH7B5Duvk?si=655bc279537d4a33"
+    "poster": "https://live.staticflickr.com/65535/52852108557_a0a66603b7_m.jpg",
+    "url":"https://soundcloud.com/user-828791915/everywhere-chloe-x-halle-live?si=3bb278184ca04bdd9eb77e9bd14bacfa&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
   },
   {
     "id":9,
     "artist":"T.I.ft. Young Thug",
     "title":"About The Money",
+    "poster": "https://live.staticflickr.com/65535/52852118477_70bdbcb530_m.jpg",
     "url":"https://open.spotify.com/track/1hzJQIkgXwZevaKsc7iA6D?si=b59bce972cc04a31"
   },
   {
     "id":10,
     "artist":"Troy Ave ft Rick Ross, Jeezy",
     "title":"All About the Money",
+    "poster": "https://live.staticflickr.com/65535/52853078230_7666d9d94b_m.jpg",
     "url":"https://open.spotify.com/track/6iY9ZUyFvBhDDSt4vp15uF?si=0d6524fdeeb940c0"
   },
   {
     "id":11,
     "artist":"DJ Khaled ft. Drake, Rick Ross, Lil Wayne",
     "title":"I'm On One (Explicit Version)",
+    "poster": "https://live.staticflickr.com/65535/52852867684_fcd8d8bfdb_m.jpg",
     "url":"https://open.spotify.com/track/608a1wIsSd5KzMEqm1O7w3?si=c93a5ea9ce4b4cf8"
   },
   {
     "id":12,
     "artist":"Ace Hood ft Rick Ross & Lil Wayne",
     "title":"Hustle Hard Remix",
+    "poster": "https://live.staticflickr.com/65535/52852867679_b1aa53e659_m.jpg",
     "url":"https://open.spotify.com/track/7CfZanF7s8dOFBpPt7YTtM?si=56c62931e9654dc5"
   },
   {
     "id":13,
     "artist":"The Carters",
     "title":"BOSS",
+    "poster": "https://live.staticflickr.com/65535/52853078250_8d2170b82d_m.jpg",
     "url":"https://open.spotify.com/track/6VLEVV3KmHCiGHrY9qlXqB?si=a31d07ee89e24afb"
   },
   {
     "id":14,
     "artist":"Rihanna",
     "title":"Bitch Better Have My Money",
+    "poster": "https://live.staticflickr.com/65535/52853148153_8ff7a3996d_m.jpg",
     "url":"https://open.spotify.com/track/0NTMtAO2BV4tnGvw9EgBVq?si=7fd74986e4254351"
   },
   {
     "id":15,
     "artist":"Ne-yo ft Jamie Foxx & Fabolous",
     "title":"She got her own",
+    "poster": "https://live.staticflickr.com/65535/52852877844_a12a435dcd_m.jpg",
     "url":"https://open.spotify.com/track/4wHJZ8niEWCs13M7JgLDRR?si=5697e3e06c2e4a22"
   },
   {
     "id":16,
     "artist":"Beyonce",
     "title":"COZY",
+    "poster": "",
     "url":"https://open.spotify.com/track/0mKGwFMHzTprtS2vpR3b6s?si=b02271447ded4513"
   },
   {
     "id":17,
     "artist":"Big Sean ft Drake & Kanye West",
     "title":"Blessings",
+    "poster": "https://live.staticflickr.com/65535/52853148108_f9d7f21d67_m.jpg",
     "url":"https://open.spotify.com/track/4UaWrzY75h1tAvlxa4NKP9?si=bc1e017934314d2e"
   },
   {
     "id":18,
     "artist":"Chris Brown ft Lil Wayne & Busta Rhyme",
     "title":"Look At Me Now",
+    "poster": "https://live.staticflickr.com/65535/52852877834_31522ffcc2_m.jpg",
     "url":"https://open.spotify.com/track/3hsmbFKT5Cujb5GQjqEU39?si=24a6c8a5d00c476b"
   },
   {
     "id":19,
     "artist":"Kanye West",
     "title":"Can't Tell Me Nothing",
+    "poster": "https://live.staticflickr.com/65535/52853088710_a38593a10c_m.jpg",
     "url":"https://open.spotify.com/track/0mEdbdeRFQwBhN4xfyIeUM?si=ac45bdc0fe344b5b"
   },
   {
     "id":20,
     "artist":"DJ Khaled",
     "title":"All I Do Is Win",
+    "poster": "https://live.staticflickr.com/65535/52853148113_cd0d63f41d_m.jpg",
     "url":"https://open.spotify.com/track/12PNcnMsjsZ3eHm62t8hiy?si=e0662e6c1bca4b4a"
   }
 

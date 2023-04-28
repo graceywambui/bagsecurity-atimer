@@ -119,14 +119,15 @@ const playButton=document.getElementById('play-btn');
 const pauseButton = document.getElementById('pause-btn');
 const audioPlayer = document.getElementById('audioPlayer');
 const nextButton = document.getElementById ('next-btn');
-
+const poster = document.querySelector('#poster');
 const ul = document.querySelector('ul');
 //let currentSongIndex = 0;
 
 fetch ('http://localhost:3000/moneymusic')
 .then(response => response.json ())
 .then(data => {
-  
+
+poster.src = data[0].poster;
 
   ul.innerHTML = '';
 
@@ -136,12 +137,23 @@ data.forEach(data => {
   li.textContent = `${data.title}-${data.artist}`;
   li.style.color = '#f53192';
 
+  // Add event listener to change artWork on click
+  li.addEventListener('click', (event) => {
+    fetch(`http://localhost:3000/moneymusic/${data.id}`)
+      .then(response => response.json())
+      .then(data => {
+        poster.src=data.poster;
+        // artWork.alt=data.description;
+      })
+  });
+
   // Add event listener to play music on click
   li.addEventListener('click', () => {
   audioPlayer.src = data.url
 
   }); 
 
+  
 
   ul.appendChild(li);
 
@@ -157,24 +169,4 @@ data.forEach(data => {
 
 
 
-// playButton.addEventListener('mouseenter', ()=>{
-//   playButton.style.color = "white";
-// })
-// playButton.addEventListener('mouseleave', ()=>{
-//   playButton.style.color = "#ccba78";
-// })
-// nextButton.addEventListener('mouseenter', ()=>{
-//   nextButton.style.color = "white";
-// })
-// nextButton.addEventListener('mouseleave', ()=>{
-//   nextButton.style.color = "#ccba78";
-// })
-
-// pauseButton.addEventListener('mouseenter', ()=>{
-//   pauseButton.style.color = "white";
-// })
-
-// pauseButton.addEventListener('mouseleave', ()=>{
-//   pauseButton.style.color = "#ccba78";
-// })
 
